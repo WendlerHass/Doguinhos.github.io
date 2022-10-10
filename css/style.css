@@ -1,0 +1,198 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, 
+ul,
+p {
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 40px;
+    color: orange;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+
+.header-bg {
+    background-color: rgb(0, 0, 0);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu a {
+    color: orange;
+    display: inline-block;
+    padding: 16px 0px;
+    font-size: 20px;
+    position: relative;
+}
+
+.header-menu a:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: orange;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.header-menu a:hover:after {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.introducao-bg {
+    background: rgb(0, 0, 0);
+    color: black;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.introducao-conteudo {
+    align-self: end;
+    padding-bottom: 180px;
+}
+
+.introducao h1 {
+    margin-top: 90px;
+    margin-bottom: 32px;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    line-height: 1.125;
+    font-family: 'Century Gothic';
+    
+}
+
+
+.introducao p {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.introducao a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient( #ee933e, #e9a724 );
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    margin-left: 420px;
+    margin-top: 40px;
+    text-decoration: none;
+
+}
+
+.introducao a:hover {
+    background: linear-gradient( #dd822e, #cc911a );
+
+}
+
+.footer-bg {
+    background-color: black;
+}
+
+.footer-bg h1 {
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 40px;
+    color: orange;
+}
+
+.footer-texto {
+    color: white;
+}
+
+.copy {
+    color: rgb(99, 99, 99);
+    font-style: italic;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.footer h1 {
+    font-size: 30px;
+    margin-top: 120px;
+    margin-left: 32px;
+    font-weight: lighter;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+
+}
+.footer li {
+    margin-bottom: 10px;
+}
+
+.footer h3 {
+    margin-top: 50px;
+}
+
+.footer p {
+    margin-top: 170px;
+}
+
+.introducao h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(80),
+    blink 0ms steps(80);
+    border-right: 5px solid black;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: -0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
