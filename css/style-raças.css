@@ -104,14 +104,13 @@ img {
 }
 
 .raças p {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 0px;
     font-size: 24px;
     line-height: 36px;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
-
 
 .introducao a {
     display: inline-block;

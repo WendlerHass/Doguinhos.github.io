@@ -150,7 +150,7 @@ img {
     grid-template-columns: 2fr 2fr 2fr;
     gap: 40px;
     padding-top: 60px;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 
 .footer h1 {
